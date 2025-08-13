@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fb;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    background: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+.auth-buttons a {
+    margin-left: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.login {
+    color: #ff7b54;
+}
+.signup {
+    background: #ff7b54;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-text {
+    flex: 1;
+}
+.hero-text h1 {
+    font-size: 42px;
+    line-height: 1.2;
+}
+.hero-text h1 span {
+    color: #ff7b54;
+}
+.hero-text p {
+    margin: 20px 0;
+    color: #555;
+}
+.btn-primary {
+    display: inline-block;
+    background: #ff7b54;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.search-box {
+    display: flex;
+    margin-top: 20px;
+}
+.search-box input, .search-box button {
+    padding: 12px;
+    border: none;
+    outline: none;
+}
+.search-box input {
+    flex: 1;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.search-box button {
+    background: #ff7b54;
+    color: white;
+    border-radius: 5px;
+}
+.hero-image img {
+    width: 400px;
+}
+
+/* THINGS TO DO */
+.things {
+    padding: 60px 0;
+    background: #fff;
+}
+.things h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.things h2 span {
+    color: #ff7b54;
+}
+.things-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.thing-card {
+    background: #f8f9fb;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.thing-card img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+/* DEALS */
+.deals {
+    padding: 60px 0;
+}
+.deals h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.deals h2 span {
+    color: #ff7b54;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.deal-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.deal-card img {
+    width: 100%;
+}
+.deal-card h3 {
+    margin: 10px 0 5px;
+}
+.deal-card span {
+    display: block;
+    color: #ff7b54;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+    background: #ff7b54;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
